@@ -1,0 +1,34 @@
+# --- Python / Backend ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.env
+.env.local
+*.log
+
+# --- Node / Frontend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+
+# --- Build / Cache ---
+dist/
+build/
+.cache/
+coverage/
+.DS_Store
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- OS Specific ---
+Thumbs.db
